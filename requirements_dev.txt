@@ -1,0 +1,7 @@
+pandas
+numpy
+jupyterlab
+jupyter_bokeh
+panel
+watchfiles
+pre-commit
