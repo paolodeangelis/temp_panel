@@ -5,3 +5,6 @@ jupyter_bokeh
 panel
 watchfiles
 pre-commit
+holoviews
+hvplot
+matplotlib
