@@ -9,13 +9,13 @@ import requests
 from bokeh.models import HoverTool, HTMLTemplateFormatter
 
 # CONSTANTS (settings)
-TITLE = "Database-Name: Material class 1 explorer"
+TITLE = "Database-Name: Material class 3 explorer"
 DATA_PATH = (
-    "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/data/mclass1.json"
+    "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/data/mclass3.json"
 )
 BIB_FILE = "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/assets/gnome-energy.bib"
 RIS_FILE = "https://raw.githubusercontent.com/paolodeangelis/temp_panel/main/assets/gnome-energy.ris"
-ACCENT = "#3abccd"
+ACCENT = "#e64570"
 PALETTE = [
     "#50c4d3",
     "#efa04b",
@@ -787,8 +787,6 @@ Add or remove rows belloging to specific category"""
 divider_sb = pn.layout.Divider(margin=(-5, 0, -5, 0))
 divider_m = pn.layout.Divider()
 footer = pn.pane.HTML(FOOTER, sizing_mode="stretch_width")
-
-
 pn.template.FastListTemplate(
     title=TITLE,
     sidebar=[box_select_ions, divider_sb, controls_tabs_intro, controls_tabs],
