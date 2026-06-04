@@ -762,8 +762,7 @@ controls_tabs = pn.Tabs(("Properties", sliders_col), ("Ranking", weights_col))
 
 box_select_ions = pn.Column(
     pn.Row(
-        pn.pane.Markdown(
-            """
+        pn.pane.Markdown("""
 <style>
 p, h1, h2, h3 {
     margin-block-start: 0.2em;
@@ -775,8 +774,7 @@ ul {
 }
 </style>
 ## Working categories
-Add or remove rows belloging to specific category"""
-        ),
+Add or remove rows belloging to specific category"""),
         #    pn.widgets.TooltipIcon(
         #        value="Add or remove <i>cathodes</i> with a specific <i>active ion material</i>"
         #        )
